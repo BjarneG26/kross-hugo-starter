@@ -7,6 +7,11 @@ sections:
 - type: heading
   label: 'Olaf '
 - type: document
+  path: ''
+  label: Startseite
+  match: "**/*"
+  read_only: false
+- type: document
   path: config.toml
   label: Configuration
 upload_dir: static/images
